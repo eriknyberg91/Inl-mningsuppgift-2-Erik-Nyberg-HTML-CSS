@@ -7,15 +7,14 @@
 .top-image-links-container {
     display: flex;
     border-bottom: 2px solid black;
-    align-items: flex-end; 
-     
+    align-items:flex-end;
+    flex-wrap:wrap;
 }
 
 .top-image {
-    width: 25%;
     padding: 10px;
     margin: 10px;
-    
+    width: 300px;
 }
 
 .top-image-links-container img {
@@ -23,47 +22,40 @@
 }
 
 .top-links {
-    width: 75%; 
+    display: flex;
     padding: 10px;
-    margin: 10px;  
+    margin: 5px; 
+       
 }
 
 .top-links a {
     border: 3px solid green;
     text-decoration: none;
     color:seagreen;
-    padding: 5px;
+    padding: 7px;
+    margin: 1px;
+    
 }
 
-.main-container {
-    display: flex; 
-    
+.main-container { 
+    display: flex;
 }
 
 .main-large-image {
-    margin: 10px;   
+    margin: 10px;
 }
 
 .main-text {
-    padding: 7px; 
-    overflow: auto;
-    
+    padding: 15px;   
 }
 
 .main-text p {
     padding: 10px;
-    height: 90%;
+    height: 60%;
     border: 2px solid black;
 }
 
 .main-text h3 {
-    height: 10%; 
+    height: 20%;
     text-align: center;
 }
-
-
-
-
-
-
-
